@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+margin: 8px;
+padding: 5px;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+
+
+}
+header {
+    margin-top: -90px;
+    font-family: 'poppins';
+    
+}
+
+.text {
+    position: relative;
+    z-index: 10;
+    font-family: 'poppins';
+   
+}
+
+.text h1{
+font-size: 2em;
+float: right;
+color: green;
+font-weight: 800;
+line-height: 1em;
+letter-spacing: 8px;
+font-family: 'poppins';
+margin-top: -150px;
+}
+
+.text h1 span{
+    color: black;
+}
+
+.text h3 {
+    font-size: 2em;
+   
+    font-weight: 500;
+    text-align: center;
+    font-family: 'poppins';
+    
+}
+.checkbox {
+   
+    font-family: 'poppins';
+}
+
+.checkbox a{
+    text-decoration-line: none;
+    display: inline-block;
+    background-color: blue;
+    padding: 10px;
+    letter-spacing: 4px;
+    color: white;
+    transition: 500ms;
+   
+}
+.checkbox a :hover{
+    letter-spacing: 10px;
+}
+
+.button{
+   background-color: white;
+    color: green;
+       padding: 1.2px;
+  margin-right: 35%;
+  transform: scale(1);
+  border: black dotted;
+  font-size: 15px;
+  border-radius: 1.2px
+}
+
+
+.foot {
+    color: black;
+    margin-bottom: -10px;
+   text-align: center;
+   
+  
+   
+}
+
+.move {
+    text-align: end;
+    padding: 10px;
+}
+/*
+
+.checkbox p{
+    display: inline-block;
+    font-size: 1.1em;
+}
+
+.checkbox h2 {
+    color: teal;*/
